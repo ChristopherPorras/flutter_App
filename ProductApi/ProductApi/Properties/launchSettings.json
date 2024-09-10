@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55855", // Este es el puerto para IIS Express en HTTP.
+      "sslPort": 44309 // Este es el puerto para IIS Express en HTTPS.
+    }
+  },
+  "profiles": {
+    "ProductApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger", // Swagger UI se abrirá automáticamente en esta URL.
+      "applicationUrl": "http://localhost:5183", // Mantén solo la URL HTTP.
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger", // Se abrirá Swagger UI para IIS Express.
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
